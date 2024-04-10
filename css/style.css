@@ -259,6 +259,7 @@ button.bg-lightblue:hover {
     mask: url(../img/wave.svg);
     background-color: #f6f6f6;
     height: 4em;
+    -webkit-mask-image: url(../img/wave.svg);
 }
 
 .wave-bottom {
