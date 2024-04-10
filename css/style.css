@@ -16,6 +16,14 @@ ul {
     list-style-type: none;
 }
 
+[alt="Discord Logo"],
+li,
+button,
+i,
+div.lang {
+    cursor: pointer;
+}
+
 button {
     padding: .6em 1.2em;
     border: 1px solid transparent;
@@ -47,10 +55,20 @@ header {
     background-color: #255ee9;
 }
 
-header section.top-bar {
+header section.top-bar,
+footer nav,
+footer nav div.site-info,
+section.bottom-bar {
     width: 80%;
-    padding: 1.2em 1em;
     justify-content: space-between;
+}
+
+header section.top-bar {
+    padding: 1.2em 1em;
+}
+
+img[alt="Discord Logo"] {
+    width: 6.5em;
 }
 
 section.top-bar nav {
@@ -88,6 +106,10 @@ section.content>div {
     padding: 6em 9em 6em;
     align-items: flex-start;
     justify-content: space-around;
+}
+
+section.content.bg-lightgrey>div {
+    justify-content: space-between;
 }
 
 section.content img {
@@ -133,16 +155,9 @@ div.start h2 {
 }
 
 footer nav {
-    width: 80%;
     padding: 4em 0 2em;
     border-bottom: 1px solid #7289da;
-    justify-content: space-between;
     align-items: flex-start;
-}
-
-footer nav div.site-info {
-    justify-content: space-between;
-    width: 80%;
 }
 
 div.lang span {
@@ -169,8 +184,6 @@ footer nav ul li {
 }
 
 section.bottom-bar {
-    width: 80%;
-    justify-content: space-between;
     padding: 1em 0 5em;
 }
 
@@ -180,12 +193,12 @@ section.bottom-bar {
 }
 
 /*  **  */
-.flex {
-    display: flex;
-}
-
 .centered {
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
 }
 
 .padd-b-1em {
@@ -196,8 +209,30 @@ section.bottom-bar {
     font-weight: bold;
 }
 
+/* ** HOVER */
+li:hover {
+    text-decoration: underline;
+}
 
-/* ** COLOR STYLE */
+button:hover {
+    box-shadow: 0px 6px 5px 2px rgba(0, 0, 0, 0.15);
+    transition-duration: 0.2s;
+}
+
+.white-btn:hover {
+    color: #7289da;
+}
+
+button.bg-darkgrey:hover {
+    background-color: #292e32;
+}
+
+button.bg-lightblue:hover {
+    background-color: #7e92dd;
+}
+
+
+/* ** STYLE */
 /* // colors
     --lightblue: #7289da;
     --darkgrey: #23272a; 
