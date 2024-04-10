@@ -29,6 +29,10 @@ h1 {
     padding-bottom: .5em;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 main h1 {
     font-size: 2.8em;
     line-height: 1.1em;
@@ -53,7 +57,8 @@ section.top-bar nav {
     padding: .4em;
 }
 
-section.top-bar button {
+section.top-bar button,
+section.bottom-bar button {
     font-size: .8em;
 }
 
@@ -124,7 +129,6 @@ section.main-content div.start {
 }
 
 div.start h2 {
-    font-size: 2rem;
     padding-bottom: 1.5em;
 }
 
@@ -136,17 +140,27 @@ footer nav {
     align-items: flex-start;
 }
 
-footer nav div {
-    width: 30%;
+footer nav div.site-info {
+    justify-content: space-between;
+    width: 80%;
 }
 
-footer nav h2 {
-    font-size: 2.3em;
+div.lang span {
+    font-size: .8em;
+    vertical-align: top;
+}
+
+div.lang i {
+    font-size: .8em;
+    vertical-align: text-top;
 }
 
 div.social-icons i {
-    margin-right: .3em;
-    padding-top: .8em;
+    margin-right: 1em;
+}
+
+footer nav ul {
+    padding: 0 1em;
 }
 
 footer nav ul li {
@@ -162,6 +176,7 @@ section.bottom-bar {
 
 #flag {
     width: 1.5em;
+    margin-right: .1em;
 }
 
 /*  **  */
