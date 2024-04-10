@@ -9,7 +9,7 @@ body {
 }
 
 div.container {
-    max-width: 1200px;
+    max-width: 1300px;
 }
 
 ul {
@@ -25,13 +25,13 @@ button {
 }
 
 h1 {
-    font-size: 3.3rem;
+    font-size: 3rem;
     padding-bottom: .5em;
 }
 
 p {
-    font-size: 1.2rem;
     line-height: 1.5em;
+    font-size: 1.1em;
 }
 
 header {
@@ -39,8 +39,8 @@ header {
 }
 
 header section.top-bar {
-    width: 90%;
-    padding: 1.4em 1em;
+    width: 80%;
+    padding: 1.2em 1em;
     justify-content: space-between;
 }
 
@@ -54,7 +54,7 @@ section.top-bar button {
 
 section.top-bar nav li {
     display: inline-block;
-    padding: 0 .5em;
+    padding: 0 .8em;
 }
 
 header section.jumbotron {
@@ -66,11 +66,7 @@ header section.jumbotron {
 section .jumbotron-text {
     width: 60%;
     text-align: center;
-    padding: 2em 2em 5em;
-}
-
-section .jumbotron-text h1 {
-    padding: 1.5em 1em .8em;
+    padding: 6.5em 2em 6.2em;
 }
 
 section .jumbotron-text button {
@@ -134,14 +130,7 @@ footer nav h2 {
     font-size: 2.3em;
 }
 
-select {
-    border: none;
-    font-size: 1em;
-}
-
-div.social-icons img {
-    width: 1em;
-    display: inline-block;
+div.social-icons i {
     margin-right: .3em;
     padding-top: .8em;
 }
@@ -172,6 +161,10 @@ section.bottom-bar {
 
 .padd-b-1em {
     padding-bottom: 1em;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 
