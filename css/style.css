@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: "Cabin", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: "Cabin", sans-serif; */
 }
 
 div.container {
@@ -33,16 +34,15 @@ button {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2.6rem;
     padding-bottom: .5em;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 main h1 {
-    font-size: 2.8em;
     line-height: 1.1em;
 }
 
@@ -76,7 +76,8 @@ section.top-bar nav {
 }
 
 section.top-bar button,
-section.bottom-bar button {
+section.bottom-bar button,
+nav li {
     font-size: .8em;
 }
 
@@ -95,6 +96,10 @@ section .jumbotron-text {
     width: 60%;
     text-align: center;
     padding: 6.5em 2em 6.2em;
+}
+
+section .jumbotron-text h1 {
+    padding-bottom: .8em;
 }
 
 section .jumbotron-text button {
@@ -133,7 +138,6 @@ section.main-content div.caption {
 
 section.main-content p {
     font-size: 1.16em;
-    padding: 0 1.4em;
 }
 
 section.main-content img {
@@ -142,12 +146,12 @@ section.main-content img {
 }
 
 section.main-content div.start {
-    width: 43%;
+    width: 42%;
     background-image: url(../img/stars.svg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 2em 0 8em;
+    padding: 2.3em 0 8em;
 }
 
 div.start h2 {
@@ -180,11 +184,11 @@ footer nav ul {
 
 footer nav ul li {
     color: white;
-    margin-top: .8em;
+    margin-top: 1.5em;
 }
 
 section.bottom-bar {
-    padding: 1em 0 5em;
+    padding: 1em 0 3em;
 }
 
 #flag {
