@@ -216,6 +216,16 @@ section.bottom-bar {
     background-color: #f6f6f6;
 }
 
+.wave {
+    mask: url(../img/wave.svg);
+    background-color: #f6f6f6;
+    height: 4em;
+}
+
+.wave-bottom {
+    transform: scaleY(-1);
+}
+
 .font-white {
     color: white;
 }
