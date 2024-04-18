@@ -117,6 +117,20 @@ section.content.bg-lightgrey>div {
     justify-content: space-between;
 }
 
+.wave {
+    opacity: 0.035;
+    height: 4em;
+    width: 100%;
+}
+
+.wave-top {
+    transform: translateY(4px);
+}
+
+.wave-bottom {
+    transform: scaleY(-1);
+}
+
 section.content img {
     width: 58%;
 }
@@ -253,17 +267,6 @@ button.bg-lightblue:hover {
 
 .bg-lightgrey {
     background-color: #f6f6f6;
-}
-
-.wave {
-    mask: url(../img/wave.svg);
-    background-color: #f6f6f6;
-    height: 4em;
-    -webkit-mask-image: url(../img/wave.svg);
-}
-
-.wave-bottom {
-    transform: scaleY(-1);
 }
 
 .font-white {
